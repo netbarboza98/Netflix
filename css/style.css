@@ -96,3 +96,121 @@ li{
     
    
 }
+.desprin{
+    width: 100%;
+    margin-top: 10%;
+    position:absolute;
+}
+.coluna-suits{
+    
+    margin-left: 40px;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+}
+.img-suits{
+    width: 100%;
+}
+#suits-mobile{
+    font-size: 6vw;
+    color: white;
+    display: none;
+}
+.inf-mobile{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.inf-mobile p{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(192, 176, 176);
+    font-size: 3vw;
+    margin-right: 5px;
+    
+}
+#idade{
+    background:black ;
+    border-radius: 3px;
+    padding: 2px;
+}
+h1{
+    width: 100%;
+    color: #fff;
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+    
+}
+.botoes-cont-prin{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 15px;
+    
+    
+}
+.botoes-mobile{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.botoes-mobile P{
+    font-family:sans-serif;
+    color:white;
+    font-size: 3vw;
+    padding: 5px 10px;
+    margin-right: 20px;
+    
+}
+#assitir-mobile{
+    background: red;
+    border: 1px solid red;
+}
+#epsodios{
+    background: rgba(97, 93, 93, 0.432);
+    border: 1px solid grey;
+}
+.play{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    font-size:1.4vw ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: white;
+    border-radius: 5px;
+    margin-right: 10%;
+}
+.play:hover{
+    cursor:pointer;
+    background: rgb(180, 178, 178);
+    transition: 0.3s;
+}
+.bi-caret-right-fill{
+    color:#000;
+    font-size: 27px;
+    margin-right: 5px;
+}
+.mais-inf{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #a3a0a09c;
+}
+.mais-inf:hover{
+    cursor: pointer;
+    background: #80787879;
+    transition: 0.3s;
+}
+.bi-info-circle{
+    color: #fff;
+    font-size: 27px;
+    margin-right: 5px;
+}
