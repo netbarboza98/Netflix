@@ -373,3 +373,71 @@ h3{
     width: 100%;
     overflow: hidden;
 }
+main{
+    height:1670px ;
+   }
+   footer{
+       width: 80%;
+       
+       margin: auto 10%;
+       
+   }
+   .redes-sociais{
+       width: 100%;
+       
+       color: grey;
+       font-size: 30px;
+       
+   }
+   .redes-sociais a{
+       color: grey;
+   
+   }
+   .bi{
+       margin-right: 15px;
+   }
+   .menu-footer{
+       display: flex;
+       width: 100%;
+       flex-direction: row;
+       flex-wrap: wrap;
+       
+   }
+   .menu-footer a{
+       text-decoration: none;
+       color: grey;
+       display: flex;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       margin-top: 15px;
+      margin-right: 100px;
+   }
+   .menu-footer a:hover{
+       text-decoration:underline;
+   }
+   .codigo-do-servidor{
+       margin-top: 15px;
+       width: 155px;
+       display: flex;
+       border: 1px solid grey;
+       justify-content: center;
+   }
+   .codigo-do-servidor a{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       text-decoration: none;
+       color: grey;
+       padding: 8px;
+       
+   }
+   .codigo-do-servidor a:hover{
+       color: #fff;
+   }
+   .copywriter{
+       margin: 15px auto;
+       display: flex;
+   }
+   .copywriter p{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 12px;
+       margin-right: 20px;
+       color: grey;
+   }
