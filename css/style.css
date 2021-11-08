@@ -441,3 +441,88 @@ main{
        margin-right: 20px;
        color: grey;
    }
+   @media screen and (max-width:724px)  {
+    ul{
+        display: none;
+    }
+    .menu-direito a{
+
+        display: none;
+    }
+    .search-box input{
+        display: flex;
+    }
+    .menu-celular{
+        display: flex;
+    }
+    h1{
+        display: none;
+    }
+    .img-suits{
+        display: none;
+    }
+    #suits-mobile{
+        margin-top: 20px;
+        display: flex;
+    }
+    .inf-mobile{
+        display: flex;
+    }
+    h2{
+        font-size: 2.4vw;
+    }
+    h3{
+        font-size: 2.4vw;
+    }
+    .imagemfundo{
+        height: 200px;
+    }
+    .play{
+        display: none;
+    }
+    .mais-inf{
+        display: none;
+    }
+    .imgslide, .imgslide1{
+        width: 150px;
+        height: 84px;
+    }
+    .slides{
+        height: 120px;
+
+    }
+    .lançadosanopassado{
+        height: 120px;
+    }
+    .t10{
+        height: 120px;
+    }
+    .slidest{
+        height: 120px;
+    }
+    .top1, .top{
+        height: 120px;
+    }
+    .numero1, .numero{
+        height: 120px;
+    }
+    main{
+        height: 900px;
+    }
+    .botoes-mobile{
+        display: flex;
+    }
+    footer{
+        height: 750px;
+    }
+    .menu-footer a{
+        font-size:2.4vw ;
+    }
+    header:hover{
+        display: none;
+    }
+
+    
+    
+  
+}
